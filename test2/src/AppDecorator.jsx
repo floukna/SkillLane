@@ -9,34 +9,6 @@ import { initReactI18next } from 'react-i18next'
 import { ThemeProvider } from 'styled-components'
 import theme from './theme'
 
-// const createTheme = ({ darkMode }) =>
-//   createMuiTheme({
-//     typography: {
-//       useNextVariants: true,
-//     },
-//     palette: {
-//       type: darkMode ? 'dark' : 'light',
-//       primary: {
-//         main: darkMode ? '#ffb442' : '#e46300',
-//       },
-//       secondary: {
-//         main: darkMode ? '#ffb442' : '#e46300',
-//       },
-//     },
-//     props: {
-//       MuiButton: {
-//         variant: 'outlined',
-//       },
-//     },
-//     overrides: {
-//       MuiTabs: {
-//         indicator: {
-//           backgroundColor: 'red',
-//         },
-//       },
-//     },
-//   })
-
 export const AppDecorator = ({
   i18nConfig = {},
   text = {
