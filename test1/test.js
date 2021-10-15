@@ -59,10 +59,6 @@ function largest_power(n) {
   return [0, -1]
 }
 
-// console.time('test')
-// console.log(largest_power(2187))
-// console.timeEnd('test')
-
 console.log(largest_power(90))
 console.log(largest_power(6))
 console.log(largest_power(65))
@@ -71,8 +67,4 @@ console.log(largest_power(1))
 console.log(largest_power(81))
 console.log(largest_power(29))
 console.log(largest_power(4))
-// console.log(largest_power(531445))
-// console.log(largest_power(4914))
-// console.log(largest_power(456534))
-// console.log(largest_power(2488325))
-// console.log(largest_power(390629))
+
