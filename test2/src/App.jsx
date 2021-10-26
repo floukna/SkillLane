@@ -27,30 +27,6 @@ export default function App() {
           <Marginer direction="vertical" margin="20px" />
           <Contents />
         </Container>
-        {/* <Grid
-          style={{ height: 600 }}
-          container
-          direction="column"
-          alignItems="center"
-          justify="space-around"
-        >
-          <Logo />
-          <div>
-            Hello Vite <A href="https://reactjs.org">React</A> +&nbsp;
-            <A href="">Material-Ui</A> +&nbsp;
-            <A href="https://styled-components.com">styled-components</A>!
-          </div>
-          <Button onClick={() => setCount((count) => count + 1)}>
-            count is: {count}
-          </Button>
-          <div>
-            Edit <code>App.jsx</code> and save to test HMR updates.
-          </div>
-          <div>
-            Build with <A href="https://vitejs.dev">Vite เทสนะะ</A>
-          </div>
-          <Rating name="half-rating-read" defaultValue={4.7} precision={0.5} readOnly />
-        </Grid> */}
       </div>
     )
   })
