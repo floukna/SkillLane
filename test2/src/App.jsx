@@ -1,8 +1,5 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Banner from './components/Banner'
-// import Container from './components/Container'
-//import {AppDecorator} from '@your-scope/storybook'
-//dummy, aslong as not imported from storybook by previous line
 import { AppDecorator } from './AppDecorator'
 import styled from 'styled-components'
 import VideoContent from './components/video-content'
