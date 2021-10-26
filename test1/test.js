@@ -37,7 +37,6 @@ function find_largest(round, n) {
         }
       }
     }
-    // console.log(round);
     round -= 1
   }
   const count = countMax(list, Math.max(...list))
